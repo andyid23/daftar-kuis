@@ -15,20 +15,20 @@
         "canonical": true
       },
       "created": 1781318422,
-      "updated": 1781374178,
+      "updated": 1781374269,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
       }
     },
     "theme": {
-      "element": "polaris-invent-theme",
-      "path": "@haxtheweb/polaris-theme/lib/polaris-invent-theme.js",
-      "name": "Polaris Invent",
-      "thumbnail": "@haxtheweb/haxcms-elements/lib/theme-screenshots/theme-polaris-invent-theme-thumb.jpg",
-      "description": "Start with a blank site using the Polaris Invent",
+      "element": "clean-two",
+      "path": "@haxtheweb/clean-two/clean-two.js",
+      "name": "Clean Two",
+      "thumbnail": "@haxtheweb/haxcms-elements/lib/theme-screenshots/theme-clean-two-thumb.jpg",
+      "description": "Start with a blank site using the Clean Two",
       "category": [
-        "Website"
+        "Course"
       ],
       "hidden": false,
       "priority": 0,
