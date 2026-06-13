@@ -3,7 +3,7 @@
   <title>pen-todo</title>
   <link href="https://localhost:3000/sites/pen-todo/" rel="self" />
   <subtitle>own course</subtitle>
-  <updated>2026-06-13T15:40:42.000Z</updated>
+  <updated>2026-06-13T15:42:51.000Z</updated>
   <author>
       <name></name>
   </author>
@@ -36,7 +36,7 @@
   <entry>
     <title>Lesson 1: Introduction</title>
     <id>item-lesson-1-intro</id>
-    <updated>2026-06-13T15:42:51.000Z</updated>
+    <updated>2026-06-13T18:09:38.000Z</updated>
     <published>2026-06-13T02:40:22.000Z</published>
     <summary>Lesson 1 Introduction Give learners context for this lesson: why the topic matters, how it connects to   prior knowledge, and what questions they should keep in mind as they move through   the conten</summary>
     <link href="https://localhost:3000/sites/pen-todo/lesson-1-introduction"/>
@@ -48,7 +48,8 @@
   prior knowledge, and what questions they should keep in mind as they move through
   the content.</p>
 <p>tes</p>
-<explode-quiz data-font-family="primary" data-font-weight="medium" questions="[{&quot;question&quot;:&quot;Apa ibu kota Indonesia?&quot;,&quot;choices&quot;:[&quot;Bandung&quot;,&quot;Surabaya&quot;,&quot;Jakarta&quot;,&quot;Medan&quot;],&quot;correctIndex&quot;:2},{&quot;question&quot;:&quot;Berapa hasil dari 7 × 8?&quot;,&quot;choices&quot;:[&quot;54&quot;,&quot;56&quot;,&quot;58&quot;,&quot;60&quot;],&quot;correctIndex&quot;:1},{&quot;question&quot;:&quot;Planet terdekat dengan Matahari adalah?&quot;,&quot;choices&quot;:[&quot;Venus&quot;,&quot;Bumi&quot;,&quot;Mars&quot;,&quot;Merkurius&quot;],&quot;correctIndex&quot;:3}]" script-function-name="submitQuizResult" _screen="name" _student-name="ertretre" _current-index="0" _score="0" _selected-index="-1" _name-input-value="ertretre" _temp-questions="[{&quot;question&quot;:&quot;Apa ibu kota Indonesia?&quot;,&quot;choices&quot;:[&quot;Bandung&quot;,&quot;Surabaya&quot;,&quot;Jakarta&quot;,&quot;Medan&quot;],&quot;correctIndex&quot;:2},{&quot;question&quot;:&quot;Berapa hasil dari 7 × 8?&quot;,&quot;choices&quot;:[&quot;54&quot;,&quot;56&quot;,&quot;58&quot;,&quot;60&quot;],&quot;correctIndex&quot;:1},{&quot;question&quot;:&quot;Planet terdekat dengan Matahari adalah?&quot;,&quot;choices&quot;:[&quot;Venus&quot;,&quot;Bumi&quot;,&quot;Mars&quot;,&quot;Merkurius&quot;],&quot;correctIndex&quot;:3}]" _editing-index="-1" _temp-correct-index="0" _temp-question-text="fddsfdsafdsaf" _temp-choice0="1111" _temp-choice1="2222" _temp-choice2="3333" _temp-choice3="4444" _editor-origin="result"></explode-quiz>
+<explode-quiz data-font-family="primary" questions="[{&quot;question&quot;:&quot;Apa ibu kota Indonesia?&quot;,&quot;choices&quot;:[&quot;Bandung&quot;,&quot;Surabaya&quot;,&quot;Jakarta&quot;,&quot;Medan&quot;],&quot;correctIndex&quot;:2},{&quot;question&quot;:&quot;Berapa hasil dari 7 × 8?&quot;,&quot;choices&quot;:[&quot;54&quot;,&quot;56&quot;,&quot;58&quot;,&quot;60&quot;],&quot;correctIndex&quot;:1},{&quot;question&quot;:&quot;Planet terdekat dengan Matahari adalah?&quot;,&quot;choices&quot;:[&quot;Venus&quot;,&quot;Bumi&quot;,&quot;Mars&quot;,&quot;Merkurius&quot;],&quot;correctIndex&quot;:3}]" script-function-name="submitQuizResult" _screen="name" _student-name="ertretre" _current-index="0" _score="0" _selected-index="-1" _name-input-value="ertretre" _temp-questions="[]" _editing-index="-1" _temp-correct-index="0" _temp-question-text="fddsfdsafdsaf" _temp-choice0="1111" _temp-choice1="2222" _temp-choice2="3333" _temp-choice3="4444" _editor-origin="result" data-style-guide="data-style-guide" data-accent="7" data-primary="21" data-margin="l" data-padding="xl" _validation-error="Nama tidak boleh kosong."></explode-quiz>
+<p>Deep thoughts..</p>
 <p> tess</p>
 <p> tess</p>
 <p> tess</p>
@@ -113,6 +114,18 @@ Wrap up Lesson 1 by revisiting the learning objectives, summarizing key takeaway
 </flash-card>
 <p>sadsada Deep thoughts.</p>
  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>New Page</title>
+    <id>item-88892e53-0178-4d1a-9d05-793ec6d783bb</id>
+    <updated>2026-06-13T17:39:36.000Z</updated>
+    <published>2026-06-13T17:39:36.000Z</published>
+    <summary></summary>
+    <link href="https://localhost:3000/sites/pen-todo/new-page"/>
+    
+    <content type="html">
+      <![CDATA[ <p></p> ]]>
     </content>
   </entry>
 </feed>

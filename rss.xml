@@ -6,7 +6,7 @@
     <description>own course</description>
     <copyright>Copyright (C) 2026 https://localhost:3000/sites/pen-todo</copyright>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jun 2026 15:40:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 15:42:51 GMT</lastBuildDate>
     <generator>HAXcms NodeJS</generator>
     <atom:link href="https://localhost:3000/sites/pen-todo/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -30,7 +30,7 @@
     <item>
       <title>Lesson 1: Introduction</title>
       <link>https://localhost:3000/sites/pen-todo/lesson-1-introduction</link>
-      <description>Lesson 1 Introduction Give learners context for this lesson: why the topic matters, how it connects to prior knowledge, and what questions they should keep in mind as they move through the content. tes tess tess tess tess</description>
+      <description>Lesson 1 Introduction Give learners context for this lesson: why the topic matters, how it connects to prior knowledge, and what questions they should keep in mind as they move through the content. tes Deep thoughts.. tess tess tess tess</description>
       <category>intro,context</category>
       <guid>https://localhost:3000/sites/pen-todo/lesson-1-introduction</guid>
       <pubDate>Sat, 13 Jun 2026 02:40:22 GMT</pubDate>
@@ -50,6 +50,13 @@
       <category>conclusion,summary</category>
       <guid>https://localhost:3000/sites/pen-todo/lesson-1-conclusion</guid>
       <pubDate>Sat, 13 Jun 2026 02:40:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>New Page</title>
+      <link>https://localhost:3000/sites/pen-todo/new-page</link>
+      <description></description>
+      <guid>https://localhost:3000/sites/pen-todo/new-page</guid>
+      <pubDate>Sat, 13 Jun 2026 17:39:36 GMT</pubDate>
     </item>
   </channel>
 </rss>

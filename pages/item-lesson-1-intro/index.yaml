@@ -14,7 +14,7 @@ metadata:
   hideInMenu: false
   tags: intro,context
   created: 1781318422
-  updated: 1781365371
+  updated: 1781374178
   locked: false
   readtime: 1
   videos: []
@@ -29,7 +29,7 @@ content: >
     the content.</p>
   <p>tes</p>
 
-  <explode-quiz data-font-family="primary" data-font-weight="medium"
+  <explode-quiz data-font-family="primary"
   questions="[{&quot;question&quot;:&quot;Apa ibu kota
   Indonesia?&quot;,&quot;choices&quot;:[&quot;Bandung&quot;,&quot;Surabaya&quot;,&quot;Jakarta&quot;,&quot;Medan&quot;],&quot;correctIndex&quot;:2},{&quot;question&quot;:&quot;Berapa
   hasil dari 7 ×
@@ -38,17 +38,15 @@ content: >
   adalah?&quot;,&quot;choices&quot;:[&quot;Venus&quot;,&quot;Bumi&quot;,&quot;Mars&quot;,&quot;Merkurius&quot;],&quot;correctIndex&quot;:3}]"
   script-function-name="submitQuizResult" _screen="name"
   _student-name="ertretre" _current-index="0" _score="0" _selected-index="-1"
-  _name-input-value="ertretre" _temp-questions="[{&quot;question&quot;:&quot;Apa
-  ibu kota
-  Indonesia?&quot;,&quot;choices&quot;:[&quot;Bandung&quot;,&quot;Surabaya&quot;,&quot;Jakarta&quot;,&quot;Medan&quot;],&quot;correctIndex&quot;:2},{&quot;question&quot;:&quot;Berapa
-  hasil dari 7 ×
-  8?&quot;,&quot;choices&quot;:[&quot;54&quot;,&quot;56&quot;,&quot;58&quot;,&quot;60&quot;],&quot;correctIndex&quot;:1},{&quot;question&quot;:&quot;Planet
-  terdekat dengan Matahari
-  adalah?&quot;,&quot;choices&quot;:[&quot;Venus&quot;,&quot;Bumi&quot;,&quot;Mars&quot;,&quot;Merkurius&quot;],&quot;correctIndex&quot;:3}]"
-  _editing-index="-1" _temp-correct-index="0"
-  _temp-question-text="fddsfdsafdsaf" _temp-choice0="1111" _temp-choice1="2222"
-  _temp-choice2="3333" _temp-choice3="4444"
-  _editor-origin="result"></explode-quiz>
+  _name-input-value="ertretre" _temp-questions="[]" _editing-index="-1"
+  _temp-correct-index="0" _temp-question-text="fddsfdsafdsaf"
+  _temp-choice0="1111" _temp-choice1="2222" _temp-choice2="3333"
+  _temp-choice3="4444" _editor-origin="result"
+  data-style-guide="data-style-guide" data-accent="7" data-primary="21"
+  data-margin="l" data-padding="xl" _validation-error="Nama tidak boleh
+  kosong."></explode-quiz>
+
+  <p>Deep thoughts..</p>
 
   <p> tess</p>
 
