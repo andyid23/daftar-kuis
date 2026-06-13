@@ -17,7 +17,7 @@ metadata:
   hideInMenu: false
   tags: intro,context
   created: 1781318422
-  updated: 1781344943
+  updated: 1781344984
   locked: false
   readtime: 1
   videos: []
@@ -34,8 +34,9 @@ content: >
 
   <p>tes</p>
 
-  <p>ujian</p>
-
+  <explode-quiz .questions="${JSON.stringify([
+          {
+            question: " apa="" warna="" bendera="" indonesia?',="" choices:="" ['merah="" putih',="" 'putih="" merah',="" 'merah="" biru',="" 'hijau="" kuning'],="" correctindex:="" 0,="" },="" {="" question:="" 'berapa="" jumlah="" hari="" dalam="" tahun="" kabisat?',="" ['364',="" '365',="" '366',="" '367'],="" 2,="" ])}'=""></explode-quiz>
   <explode-quiz></explode-quiz>
 
   <p></p>

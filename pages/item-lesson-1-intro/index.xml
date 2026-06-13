@@ -16,7 +16,7 @@ Give learners context for this lesson: why the topic matters, how it connects to
 <hideInMenu>false</hideInMenu>
 <tags>intro,context</tags>
 <created>1781318422</created>
-<updated>1781344943</updated>
+<updated>1781344984</updated>
 <locked>false</locked>
 <readtime>1</readtime>
 <videos>
@@ -31,7 +31,9 @@ Give learners context for this lesson: why the topic matters, how it connects to
   the content.</p>
 <p></p>
 <p>tes</p>
-<p>ujian</p>
+<explode-quiz .questions="${JSON.stringify([
+        {
+          question: " apa="" warna="" bendera="" indonesia?',="" choices:="" ['merah="" putih',="" 'putih="" merah',="" 'merah="" biru',="" 'hijau="" kuning'],="" correctindex:="" 0,="" },="" {="" question:="" 'berapa="" jumlah="" hari="" dalam="" tahun="" kabisat?',="" ['364',="" '365',="" '366',="" '367'],="" 2,="" ])}'=""></explode-quiz>
 <explode-quiz></explode-quiz>
 <p></p>
 ]]></content>
