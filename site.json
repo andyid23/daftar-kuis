@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1781318422,
-      "updated": 1781376521,
+      "updated": 1782751422,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -69,16 +69,17 @@
       "order": 0,
       "parent": null,
       "title": "Syllabus",
-      "description": "",
+      "description": "Course Syllabus\nOutline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomp",
       "metadata": {
         "published": true,
         "hideInMenu": false,
-        "tags": [
-          "syllabus",
-          "overview"
-        ],
+        "tags": "syllabus,overview",
         "created": 1781318422,
-        "updated": 1781318422
+        "updated": 1782751421,
+        "locked": false,
+        "readtime": 1,
+        "videos": [],
+        "images": []
       }
     },
     {

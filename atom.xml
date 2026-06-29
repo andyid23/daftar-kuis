@@ -3,7 +3,7 @@
   <title>pen-todo</title>
   <link href="https://localhost:3000/sites/pen-todo/" rel="self" />
   <subtitle>own course</subtitle>
-  <updated>2026-06-13T18:25:47.000Z</updated>
+  <updated>2026-06-13T18:48:41.000Z</updated>
   <author>
       <name></name>
   </author>
@@ -12,13 +12,18 @@
   <entry>
     <title>Syllabus</title>
     <id>item-course-syllabus</id>
-    <updated>2026-06-13T02:40:22.000Z</updated>
+    <updated>2026-06-29T16:43:41.000Z</updated>
     <published>2026-06-13T02:40:22.000Z</published>
-    <summary></summary>
+    <summary>Course Syllabus
+Outline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomp</summary>
     <link href="https://localhost:3000/sites/pen-todo/syllabus"/>
-    <category term="syllabus" label="syllabus" /><category term="overview" label="overview" />
+    <category term="syllabus,overview" label="syllabus,overview" />
     <content type="html">
-      <![CDATA[ <h2>Course Syllabus</h2><p>Outline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomplish.</p> ]]>
+      <![CDATA[ 
+<h2 id="h2-471275594">Course Syllabus</h2>
+<p>Outline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomplish.</p>
+<p>haloooo</p>
+ ]]>
     </content>
   </entry>
   <entry>

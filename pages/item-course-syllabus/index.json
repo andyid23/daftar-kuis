@@ -6,16 +6,17 @@
   "order": 0,
   "parent": null,
   "title": "Syllabus",
-  "description": "",
+  "description": "Course Syllabus\nOutline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomp",
   "metadata": {
     "published": true,
     "hideInMenu": false,
-    "tags": [
-      "syllabus",
-      "overview"
-    ],
+    "tags": "syllabus,overview",
     "created": 1781318422,
-    "updated": 1781318422
+    "updated": 1782751421,
+    "locked": false,
+    "readtime": 1,
+    "videos": [],
+    "images": []
   },
-  "content": "<h2>Course Syllabus</h2><p>Outline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomplish.</p>"
+  "content": "\n<h2 id=\"h2-471275594\">Course Syllabus</h2>\n<p>Outline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomplish.</p>\n<p>haloooo</p>\n"
 }

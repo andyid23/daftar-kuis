@@ -7,16 +7,24 @@
 <order>0</order>
 <parent></parent>
 <title>Syllabus</title>
-<description></description>
+<description>Course Syllabus
+Outline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomp</description>
 <metadata>
 <published>true</published>
 <hideInMenu>false</hideInMenu>
-<tags>
-<item>syllabus</item>
-<item>overview</item>
-</tags>
+<tags>syllabus,overview</tags>
 <created>1781318422</created>
-<updated>1781318422</updated>
+<updated>1782751421</updated>
+<locked>false</locked>
+<readtime>1</readtime>
+<videos>
+</videos>
+<images>
+</images>
 </metadata>
-<content><![CDATA[<h2>Course Syllabus</h2><p>Outline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomplish.</p>]]></content>
+<content><![CDATA[
+<h2 id="h2-471275594">Course Syllabus</h2>
+<p>Outline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomplish.</p>
+<p>haloooo</p>
+]]></content>
 </item>

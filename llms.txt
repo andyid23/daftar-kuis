@@ -12,7 +12,7 @@ Managed files (feeds, search indexes, manifests, and this `llms.txt`) are genera
 - [llms.txt](https://localhost:3000/sites/pen-todo/llms.txt): LLM-oriented guide to this site and its machine-readable resources.
 
 ## Pages
-- [Syllabus](https://localhost:3000/sites/pen-todo/pages/item-course-syllabus/index.md)
+- [Syllabus](https://localhost:3000/sites/pen-todo/pages/item-course-syllabus/index.md): Course Syllabus Outline the course description, learning objectives, required materials, grading breakdown, and major deadlines. Keep this page focused on the big picture of what learners will accomp
 - [Lesson 1](https://localhost:3000/sites/pen-todo/pages/item-lesson-1/index.md)
 - [Lesson 1: Introduction](https://localhost:3000/sites/pen-todo/pages/item-lesson-1-intro/index.md): Lesson 1 Introduction Give learners context for this lesson: why the topic matters, how it connects to prior knowledge, and what questions they should keep in mind as they move through the conten
 - [Lesson 1: Content](https://localhost:3000/sites/pen-todo/pages/item-lesson-1-content/index.md): Lesson 1 Content Organize the main instructional materials for Lesson 1 here. Combine text, media, and interactive elements to guide learners through concepts, examples, and practice opportunitie
