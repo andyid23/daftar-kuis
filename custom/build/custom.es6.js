@@ -16084,12 +16084,6 @@ class ExplodeQuiz extends I18NMixin(DDDSuper(i)) {
       settings: {
         configure: [
           {
-            property: "questions",
-            title: "Daftar Soal",
-            description: "Array soal kustom (JSON)",
-            inputMethod: "code-editor",
-          },
-          {
             property: "scriptFunctionName",
             title: "Nama Fungsi Apps Script",
             description:
@@ -16098,6 +16092,33 @@ class ExplodeQuiz extends I18NMixin(DDDSuper(i)) {
           },
         ],
         advanced: [],
+        developer: [],
+      },
+      saveOptions: {
+        unsetAttributes: [
+          "_screen",
+          "_studentName",
+          "_currentIndex",
+          "_score",
+          "_answered",
+          "_selectedIndex",
+          "_feedbackText",
+          "_feedbackPositive",
+          "_validationError",
+          "_nameInputValue",
+          "_editing",
+          "_tempQuestions",
+          "_editingIndex",
+          "_tempQuestionText",
+          "_tempChoice0",
+          "_tempChoice1",
+          "_tempChoice2",
+          "_tempChoice3",
+          "_tempCorrectIndex",
+          "_editorOrigin",
+          "editing",
+          "editable",
+        ],
       },
     };
   }
@@ -16105,7 +16126,55 @@ class ExplodeQuiz extends I18NMixin(DDDSuper(i)) {
   static get properties() {
     return {
       ...super.properties,
-      questions: { type: Array, attribute: true },
+      questions: {
+        type: Array,
+        attribute: "questions",
+        reflect: true,
+        converter: {
+          fromAttribute(value) {
+            if (value == null || value === "") return undefined;
+            if (Array.isArray(value)) return value;
+            if (typeof value === "object") return value;
+
+            const text = String(value).trim();
+            if (
+              !text ||
+              text === "[object Object]" ||
+              text === "undefined" ||
+              text === "null"
+            ) {
+              return undefined;
+            }
+
+            if (!(text.startsWith("[") || text.startsWith("{"))) {
+              return undefined;
+            }
+
+            try {
+              const parsed = JSON.parse(text);
+              if (Array.isArray(parsed)) return parsed;
+              if (
+                parsed &&
+                typeof parsed === "object" &&
+                Array.isArray(parsed.questions)
+              ) {
+                return parsed.questions;
+              }
+              return undefined;
+            } catch (_) {
+              return undefined;
+            }
+          },
+          toAttribute(value) {
+            if (!Array.isArray(value)) return null;
+            try {
+              return JSON.stringify(value);
+            } catch (_) {
+              return null;
+            }
+          },
+        },
+      },
       scriptFunctionName: { type: String, attribute: true },
       editable: { type: Boolean, attribute: true, reflect: true },
       editing: { type: Boolean, attribute: true, reflect: true },
