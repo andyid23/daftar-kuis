@@ -4,8 +4,8 @@
 <indent>0</indent>
 <location>pages/item-lesson-1-conclusion/index.xml</location>
 <slug>lesson-1-conclusion</slug>
-<order>3</order>
-<parent>item-lesson-1</parent>
+<order>0</order>
+<parent>item-88892e53-0178-4d1a-9d05-793ec6d783bb</parent>
 <title>Lesson 1: Conclusion</title>
 <description>Lesson 1 Conclusion
 Wrap up Lesson 1 by revisiting the learning objectives, summarizing key takeaways, and pointing learners toward next steps such as reflections, assessments, or the next lesson.
@@ -17,13 +17,14 @@ Wrap up Lesson 1 by revisiting the learning objectives, summarizing key takeaway
 <hideInMenu>false</hideInMenu>
 <tags>conclusion,summary</tags>
 <created>1781318422</created>
-<updated>1782751529</updated>
+<updated>1782794492</updated>
 <locked>false</locked>
 <readtime>1</readtime>
 <videos>
 </videos>
 <images>
 </images>
+<status></status>
 </metadata>
 <content><![CDATA[
 <h2 id="h2-637604694">Lesson 1 Conclusion</h2>

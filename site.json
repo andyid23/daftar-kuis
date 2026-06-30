@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1781318422,
-      "updated": 1782794478,
+      "updated": 1782794492,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -148,7 +148,7 @@
     },
     {
       "id": "item-lesson-1-conclusion",
-      "indent": 2,
+      "indent": 0,
       "location": "pages/item-lesson-1-conclusion/index.html",
       "slug": "lesson-1-conclusion",
       "order": 0,
@@ -160,7 +160,7 @@
         "hideInMenu": false,
         "tags": "conclusion,summary",
         "created": 1781318422,
-        "updated": 1782793692,
+        "updated": 1782794492,
         "locked": false,
         "readtime": 1,
         "videos": [],
