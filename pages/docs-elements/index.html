@@ -1,0 +1,114 @@
+<head></head>
+<body>
+  <h1>Dokumentasi Elemen Kustom HAXquiz</h1>
+  <p>Halaman ini mendokumentasikan semua elemen web kustom yang tersedia di situs ini.</p>
+
+  <h2>Daftar Elemen</h2>
+  <ul>
+    <li><a href="#explode-quiz">explode-quiz</a> — Kuis interaktif + confetti</li>
+    <li><a href="#todo-list">todo-list</a> — Daftar tugas</li>
+    <li><a href="#attendance-system">attendance-system</a> — Absensi &amp; penilaian</li>
+    <li><a href="#quiz-dashboard-lite">quiz-dashboard-lite</a> — Dashboard kuis + absensi</li>
+    <li><a href="#notif-element">notif-element</a> — Notifikasi toast</li>
+  </ul>
+
+  <hr>
+
+  <h2 id="explode-quiz">explode-quiz</h2>
+  <p>Elemen kuis interaktif dengan efek confetti saat jawaban benar. Dibangun dengan LitElement + DDD Design System.</p>
+  <h3>Tag</h3>
+  <pre><code>&lt;explode-quiz&gt;&lt;/explode-quiz&gt;</code></pre>
+  <h3>Atribut</h3>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead><tr><th>Atribut</th><th>Tipe</th><th>Deskripsi</th></tr></thead>
+    <tbody>
+      <tr><td><code>questions</code></td><td>Array (JSON)</td><td>Daftar soal kustom: {question, choices, correctIndex}</td></tr>
+    </tbody>
+  </table>
+  <h3>Contoh Soal Kustom</h3>
+  <pre><code>&lt;explode-quiz questions='[{"question":"Apa ibu kota Indonesia?","choices":["Bandung","Surabaya","Jakarta","Medan"],"correctIndex":2}]'&gt;&lt;/explode-quiz&gt;</code></pre>
+  <h3>Fitur</h3>
+  <ul>
+    <li>Soal pilihan ganda</li>
+    <li>Animasi confetti jawaban benar</li>
+    <li>Navigasi antar soal</li>
+    <li>Skor akhir</li>
+    <li>DDD Design System + i18n</li>
+  </ul>
+
+  <hr>
+
+  <h2 id="todo-list">todo-list</h2>
+  <p>Elemen daftar tugas interaktif dengan penyimpanan localStorage.</p>
+  <h3>Tag</h3>
+  <pre><code>&lt;todo-list&gt;&lt;/todo-list&gt;</code></pre>
+  <h3>Fitur</h3>
+  <ul>
+    <li>Tambah, edit, hapus tugas</li>
+    <li>Centang selesai</li>
+    <li>Simpan otomatis ke localStorage</li>
+    <li>DDD Design System</li>
+  </ul>
+
+  <hr>
+
+  <h2 id="attendance-system">attendance-system</h2>
+  <p>Sistem absensi dengan logging aktivitas, heatmap, dan konfigurasi threshold.</p>
+  <h3>Tag</h3>
+  <pre><code>&lt;attendance-system&gt;&lt;/attendance-system&gt;</code></pre>
+  <h3>Fitur</h3>
+  <ul>
+    <li>Pencatatan aktivitas mahasiswa</li>
+    <li>Heatmap aktivitas</li>
+    <li>Konfigurasi threshold kehadiran</li>
+    <li>Panel dosen / diagnostik</li>
+    <li>Penyimpanan localStorage</li>
+  </ul>
+
+  <hr>
+
+  <h2 id="quiz-dashboard-lite">quiz-dashboard-lite</h2>
+  <p>Dashboard lengkap menggabungkan kuis, absensi, heatmap, dan transparansi nilai dalam satu halaman. Menggunakan material-web untuk UI.</p>
+  <h3>Tag</h3>
+  <pre><code>&lt;quiz-dashboard-lite&gt;&lt;/quiz-dashboard-lite&gt;</code></pre>
+  <h3>Fitur</h3>
+  <ul>
+    <li>Tab: Kuis, Absensi, Heatmap, Nilai</li>
+    <li>Integrasi Google Sheets</li>
+    <li>Material Design 3 (MD3)</li>
+    <li>Penyimpanan sheet ID di localStorage</li>
+  </ul>
+
+  <hr>
+
+  <h2 id="notif-element">notif-element</h2>
+  <p>Elemen notifikasi toast ringan dengan berbagai tipe dan auto-dismiss.</p>
+  <h3>Tag</h3>
+  <pre><code>&lt;notif-element message="Pesan" type="success" duration="3000" visible&gt;&lt;/notif-element&gt;</code></pre>
+  <h3>Atribut</h3>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead><tr><th>Atribut</th><th>Tipe</th><th>Deskripsi</th></tr></thead>
+    <tbody>
+      <tr><td><code>message</code></td><td>String</td><td>Teks notifikasi</td></tr>
+      <tr><td><code>type</code></td><td>String</td><td>info, success, warning, error</td></tr>
+      <tr><td><code>duration</code></td><td>Number</td><td>Durasi ms (0 = tetap)</td></tr>
+      <tr><td><code>visible</code></td><td>Boolean</td><td>Tampilkan / sembunyikan</td></tr>
+    </tbody>
+  </table>
+  <h3>Metode</h3>
+  <ul>
+    <li><code>show()</code> — Tampilkan notifikasi</li>
+    <li><code>hide()</code> — Sembunyikan notifikasi</li>
+  </ul>
+  <h3>Event</h3>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead><tr><th>Event</th><th>Deskripsi</th></tr></thead>
+    <tbody>
+      <tr><td><code>notif-show</code></td><td>Saat notifikasi tampil</td></tr>
+      <tr><td><code>notif-hide</code></td><td>Saat notifikasi sembunyi</td></tr>
+    </tbody>
+  </table>
+
+  <hr>
+  <p><a href="pages/demo-elements/">Lihat Demo Interaktif →</a></p>
+</body>

@@ -216,6 +216,50 @@
         "images": [],
         "status": ""
       }
+    },
+    {
+      "id": "item-docs-elements",
+      "indent": 0,
+      "location": "pages/docs-elements/index.html",
+      "slug": "docs-elements",
+      "order": 5,
+      "parent": null,
+      "title": "Dokumentasi Elemen Kustom",
+      "description": "Dokumentasi lengkap element web kustom: explode-quiz, todo-list, notif-element, attendance-system, quiz-dashboard-lite",
+      "metadata": {
+        "published": true,
+        "hideInMenu": false,
+        "tags": ["docs", "elements", "web-components"],
+        "created": 1784664805,
+        "updated": 1784664805,
+        "locked": false,
+        "readtime": 3,
+        "videos": [],
+        "images": [],
+        "status": ""
+      }
+    },
+    {
+      "id": "item-demo-elements",
+      "indent": 0,
+      "location": "pages/demo-elements/index.html",
+      "slug": "demo-elements",
+      "order": 6,
+      "parent": null,
+      "title": "Demo Elemen Kustom",
+      "description": "Demo interaktif semua element web kustom dengan contoh langsung",
+      "metadata": {
+        "published": true,
+        "hideInMenu": false,
+        "tags": ["demo", "elements", "interactive"],
+        "created": 1784664805,
+        "updated": 1784664805,
+        "locked": false,
+        "readtime": 2,
+        "videos": [],
+        "images": [],
+        "status": ""
+      }
     }
   ]
 }

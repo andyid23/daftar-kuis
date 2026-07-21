@@ -7,7 +7,8 @@
 // don't import that directory, we'd recommend copy and pasting it in here or
 // creating your own theme based on it
 
-import "@haxtheweb/todo-list/todo-list.js";
 import "./explode-quiz.js";
 import "./attendance-system.js";
 import "./quiz-dashboard-lite.js";
+import "./todo-list.js";
+import "./notif-element.js";
