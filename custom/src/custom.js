@@ -8,4 +8,6 @@
 // creating your own theme based on it
 
 import "@haxtheweb/todo-list/todo-list.js";
-import "@haxtheweb/explode/explode-quiz.js";
+import "./explode-quiz.js";
+import "./attendance-system.js";
+import "./quiz-dashboard-lite.js";

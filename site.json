@@ -190,6 +190,28 @@
         "hideInMenu": false,
         "readtime": 1
       }
+    },
+    {
+      "id": "item-quiz-dashboard",
+      "indent": 0,
+      "location": "pages/item-quiz-dashboard/index.html",
+      "slug": "quiz-dashboard",
+      "order": 4,
+      "parent": null,
+      "title": "Quiz Dashboard & Attendance",
+      "description": "Interactive quiz dashboard with automatic attendance tracking, engagement heatmap, and grade transparency.",
+      "metadata": {
+        "published": true,
+        "hideInMenu": false,
+        "tags": ["quiz", "attendance", "dashboard"],
+        "created": 1782797462,
+        "updated": 1782797462,
+        "locked": false,
+        "readtime": 2,
+        "videos": [],
+        "images": [],
+        "status": ""
+      }
     }
   ]
 }

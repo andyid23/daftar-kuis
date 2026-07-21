@@ -23,9 +23,16 @@
   </script>
   <script type="importmap">
     {
+      "imports": {
+        "lit": "./custom/node_modules/lit/index.js",
+        "lit/": "./custom/node_modules/lit/",
+        "tslib": "./custom/node_modules/tslib/tslib.es6.js"
+      },
       "scopes": {
         "./custom/build/": {
-          "@haxtheweb/": "./build/es6/node_modules/@haxtheweb/"
+          "@haxtheweb/": "./build/es6/node_modules/@haxtheweb/",
+          "@material/web/": "./custom/node_modules/@material/web/",
+          "canvas-confetti": "./custom/node_modules/canvas-confetti/dist/confetti.module.mjs"
         }
       }
     }
