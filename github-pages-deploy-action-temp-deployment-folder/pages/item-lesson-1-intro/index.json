@@ -1,0 +1,23 @@
+{
+  "id": "item-lesson-1-intro",
+  "indent": 0,
+  "location": "pages/item-lesson-1-intro/index.json",
+  "slug": "lesson-1-introduction",
+  "order": 0,
+  "parent": "item-lesson-1",
+  "title": "Lesson 1: Introduction",
+  "description": "Lesson 1 Introduction Give learners context for this lesson: why the topic matters, how it connects to   prior knowledge, and what questions they should keep in mind as they move through   the conten",
+  "metadata": {
+    "published": true,
+    "hideInMenu": false,
+    "tags": "intro,context",
+    "created": 1781318422,
+    "updated": 1782792723,
+    "locked": false,
+    "readtime": 1,
+    "videos": [],
+    "images": [],
+    "status": ""
+  },
+  "content": "\n<h2 id=\"h2-1685776273\">Lesson 1 Introduction</h2>\n<p>Give learners context for this lesson: why the topic matters, how it connects to   prior knowledge, and what questions they should keep in mind as they move through   the content.</p>\n<p>tes</p>\n<explode-quiz questions=\"[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]\" script-function-name=\"submitQuizResult\" _student-name=\"sfdsaf\" _current-index=\"0\" _selected-index=\"-1\" _name-input-value=\"sfdsaf\" _temp-questions=\"[]\" _editing-index=\"-1\" _temp-correct-index=\"0\" _temp-question-text=\"sfsdf\" _temp-choice0=\"111\" _temp-choice1=\"222\" _temp-choice2=\"33\" _temp-choice3=\"44\" _editor-origin=\"result\" _validation-error=\"Nama tidak boleh kosong.\" _feedback-text=\"Yah, Salah. Jawaban benar: Merkurius\"></explode-quiz>\n<explode-quiz script-function-name=\"submitQuizResult\" _current-index=\"0\" _selected-index=\"-1\" _editing-index=\"-1\" _temp-correct-index=\"0\" _editor-origin=\"result\" questions=\"[object Object],[object Object],[object Object]\" _temp-questions=\"[]\"></explode-quiz>\n<explode-quiz script-function-name=\"submitQuizResult\" _current-index=\"0\" _selected-index=\"-1\" _editing-index=\"-1\" _temp-correct-index=\"0\" _editor-origin=\"result\" questions=\"[object Object],[object Object],[object Object]\" _temp-questions=\"[]\"></explode-quiz>\n<p>Deep thoughts..</p>\n<p>tess</p>\n<p>tess</p>\n<p>tess</p>\n<p>tess</p>\n"
+}
